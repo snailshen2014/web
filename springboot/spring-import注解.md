@@ -232,3 +232,6 @@ jdbc.url=jdbc:hsqldb:hsql://localhost/xdb
 jdbc.username=sa
 jdbc.password=
 ```
+
+ * 实现原理
+ 在ConfigurationClassParser的doProcessConfigurationClass方法中会去处理注解信息调用默认的BeanDefinitionReader,去解析文件初始化
