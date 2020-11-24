@@ -27,7 +27,7 @@ public class HelloWorld {
 ```
 
 slf4j日志框架的和各种日志框架的适配，如下图：
-
+![slf4j](https://github.com/snailshen2014/web/blob/main/springboot/concrete-bindings.png)
 
 
 日志的配置文件还是使用实现的框架的日志文件。
