@@ -242,7 +242,7 @@ public void configureMessageConverters(List<HttpMessageConverter<?>> converters)
 
 ## 二、Springboot默认的嵌入式的容器（tomcat,jetty,undertow)
 
-![image-20201128101845795](/Users/yanjunshen/Library/Application Support/typora-user-images/image-20201128101845795.png)
+![support](https://github.com/snailshen2014/web/blob/main/springboot/contaner-support.png)
 
 
 
@@ -287,7 +287,7 @@ b、实现WebServerFactoryCustomizer的customize接口方法
 * Undertow(不支持JSP)
 * ReactiveWebServer
 
-![image-20201128212352412](/Users/yanjunshen/Library/Application Support/typora-user-images/image-20201128212352412.png)
+![image-20201128212352412](https://github.com/snailshen2014/web/blob/main/springboot/factory.png)
 
 
 
