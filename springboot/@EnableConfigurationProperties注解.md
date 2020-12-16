@@ -64,7 +64,7 @@ public class LockAutoConfiguration {
     @Bean
     @ConditionalOnMissingBean(KooLock.class)
     @ConditionalOnProperty(name="my.lock.lockType",havingValue = "ZK")
-    public KooLock kooLockZk(TestProperties properties) {
+    public Lock LockZk(TestProperties properties) {
   
         properties.determineProperties();
         return new  	   LockZkImpl(properties.getLockPath(),properties.getZkAddress(),properties.getMaxWaitMillis(),
