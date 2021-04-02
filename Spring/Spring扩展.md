@@ -32,6 +32,9 @@ BeanDefinitionRegistryPostProcessor,是BeanFactoryPostProcessor的子接口
  * 他的执行顺序优先于BeanFactoryPostProcessor,z
 
 
+### 3、BeanPostProcessor应用
+ab测试，参考：
+https://zhuanlan.zhihu.com/p/29750396
 
 ## 二、事件ApplicationListener
 
