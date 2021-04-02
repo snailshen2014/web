@@ -134,6 +134,10 @@ public class Red implements ApplicationContextAware, BeanNameAware, EmbeddedValu
 ## 二、@Profile
 
 Spring为我们提供的可以根据当前环境，动态激活和切换组件的功能,比如：切换工程的环境，不同的环境注册不通的组件，比如：测试、开发、生成环境注册不同的数据源
+官方解释：
+```
+Spring Profiles provide a way to segregate parts of your application configuration and make it only available in certain environments. Any @Component or @Configuration can be marked with @Profile to limit when it is loaded:
+```
 
 * 标注在配置类上，复合条件的组件和没有@Profile标注的组件都会注册
 
