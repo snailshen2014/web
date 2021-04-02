@@ -476,7 +476,7 @@ SpringBoot帮我们自动配置SpringMVC的时候，自动注册SpringMVC的前�
 
 
 
-# 三、时间监听机制
+# 三、事件监听机制
 
 ## 1、配置在META-INF/spring.factories下
 
